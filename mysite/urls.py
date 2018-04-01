@@ -20,8 +20,7 @@ from django.contrib.auth import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('accounts/', include('django.contrib.auth.urls')),
-    path('account/login/', views.login),
-    path('account/logout/', views.logout, {'next_page': '/'}, name='logout'),
+    path('accounts/login/', views.login, name='login'),
+    path('accounts/logout/', views.logout, {'next_page': '/'}, name='logout'),
     path('', include('blog.urls')),
 ]
