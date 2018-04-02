@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.conf.urls import include
 from django.urls import path
 from django.contrib.auth import views
+from blog import views as blog_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts/register/', blog_views.register, name='register'),
     path('accounts/login/', views.login, name='login'),
     path('accounts/logout/', views.logout, {'next_page': '/'}, name='logout'),
     path('', include('blog.urls')),
