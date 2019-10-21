@@ -57,6 +57,6 @@ ufw==0.35
 unattended-upgrades==0.1
 urllib3==1.22
 virtkey==0.63.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 whitenoise==3.3.1
 xkit==0.0.0
