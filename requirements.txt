@@ -55,7 +55,7 @@ twilio==6.10.0
 ubuntu-drivers-common==0.0.0
 ufw==0.35
 unattended-upgrades==0.1
-urllib3==1.22
+urllib3==1.26.5
 virtkey==0.63.0
 Werkzeug==0.14.1
 whitenoise==3.3.1
