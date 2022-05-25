@@ -38,7 +38,7 @@ pycurl==7.43.0
 pygame==1.9.4.dev0
 pygobject==3.20.0
 PyICU==1.9.2
-PyJWT==1.5.3
+PyJWT==2.4.0
 PySocks==1.6.8
 python-apt==1.1.0b1
 python-debian==0.1.27
